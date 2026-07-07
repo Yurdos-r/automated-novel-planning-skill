@@ -9,7 +9,7 @@
 - `references/`：用于规划、章节控制、连续性检查、风格调度、真实性修订、状态回写和章节验收的参考文档。
 - `references/full-project-audit.md`：用于全面审查、全书体检、阶段复盘、完结前验收或检查所有项目文件的审查协议。
 - `references/style-modules/`：幽默、悬念、推理、爱情、恐怖、奇幻、文学等风格模块文档。
-- `assets/codex-continue-novel.ps1`：Windows 下连续创作恢复脚本模板。
+- `assets/codex-continue-novel.ps1`：Windows 下连续创作恢复脚本模板，包含写下一章前读取上一章、上一章控制卡和涉及源章节的提示约束。
 - `scripts/chapter_lint.py`：章节文本的轻量检查脚本。
 - `LICENSE`：MIT 许可证文本。
 

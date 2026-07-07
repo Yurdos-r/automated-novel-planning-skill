@@ -21,6 +21,7 @@
 - 章节标题控制：`SKILL.md` 与 `references/chapter-title-method.md` 规定了项目级命名体系、单章候选标题和成稿后的题章复核。
 - 内置风格模块：`references/style-modules/` 提供幽默、悬念、推理、爱情、恐怖、奇幻、文学等模块，并要求按章节需要选择性加载。
 - 连续创作脚本模板：`assets/codex-continue-novel.ps1` 可作为 marathon / 疯狂创作的项目根目录启动脚本模板。
+- 写作前置源章节读取：章节流程和连续创作脚本模板要求写下一章前读取上一章正文、上一章控制卡，以及本章涉及的回调、引用、物件、伏笔、关系桥接和直接连续性源章节；不得只凭动态状态、摘要、日志或记忆续写。
 - 真实性修订：`references/authenticity-and-de-ai-pass.md` 与章节流程包含去分析腔、去过度专业术语、保留必要设定词的修订规则。
 - 风格强化规则：风格模块中整理了读者牵引、类型兑现、语言辨识度等通用写作控制点；这些是规则抽象，不是对具体作品的复制。
 - 章节验收与写回：`references/chapter-review-protocol.md`、`references/pre-landing-gates.md` 和 `references/quality-and-writeback-checks.md` 提供章节验收、落盘和状态回写规则。
@@ -171,6 +172,7 @@
 在这个模式里，skill 规则会要求按章持续执行：
 
 - 读取项目文档
+- 读取上一章正文、上一章控制卡，以及本章涉及的源章节
 - 生成章节控制卡
 - 生成并复核章节标题（如果项目使用章节名）
 - 起草正文

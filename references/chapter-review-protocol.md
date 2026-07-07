@@ -23,6 +23,8 @@ Review the accepted manuscript against:
 - source chapters for callbacks, quoted dialogue, recurring objects, payoff scenes, or repeated events
 - project calibration files when world mechanics, genre conventions, intimacy, violence, law, magic, profession, medicine, or other fragile rules are active
 
+For single-chapter review, do not accept "dynamic state only" or a summary-only read as source coverage. List the previous chapter and every actually read source chapter in `Sources Read`. If an expected source chapter was not read, mark continuity review as incomplete or blocked rather than guessing from memory.
+
 Ignore `*.tmp.*`, scratch drafts, and obsolete review reports unless the user explicitly asks to audit history.
 
 ## Dimension Set
@@ -206,4 +208,3 @@ Do not average scores. A single hard blocker blocks acceptance.
 ```
 
 Archive the report to `review/reports/NN-<chapter-title>-review.md` when the project uses review reports.
-

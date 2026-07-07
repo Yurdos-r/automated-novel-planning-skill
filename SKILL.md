@@ -27,6 +27,8 @@ Do not use this skill for one-off poems, short jokes, or isolated scenes that do
 - Do not let a full outline stand if benchmark outline checks still show slogan themes, flat characters, weak line interference, or hollow ending direction.
 - Do not start chapter drafting before presenting the full outline and full cast dossier.
 - Do not draft a chapter before reading the required project files.
+- Do not draft the next chapter, generate its control card, or continue in marathon mode before reading the previous accepted chapter manuscript, its matching control card, and every source chapter required by callbacks, quoted dialogue, recurring objects, payoff scenes, repeated events, relationship bridges, foreshadow returns, or direct continuity.
+- Do not continue from `08-dynamic-state.md`, chapter summaries, writing logs, roadmap notes, or memory alone. If the relevant source chapters are unclear, build a retrieval slice from `08-dynamic-state.md`, `06-foreshadow-ledger.md`, `07-chapter-roadmap.md`, `04-relationship-map.md`, `05-main-plotlines.md`, and existing `control-cards/`, then read the corresponding accepted chapters before planning prose.
 - Do not treat a single flat plot as sufficient when the user wants a long-form novel. Default to multiple active lines.
 - Do not let trope convenience, fake depth, or decorative structure override human truth, causal pressure, or social texture.
 - Do not treat benchmark logic as doctrine. Use it as a calibrated reference system that must adapt to user intent, genre, and target readership.
@@ -404,9 +406,12 @@ For every chapter, use this order:
    - `09-style-guide.md`
    - any project-local mechanics calibration file, when it exists or active mechanics are in play
    - the previous accepted chapter manuscript, especially its final scene, object state, body distance, emotional temperature, and unresolved physical or social position
+   - the previous chapter's matching control card
+   - every accepted source chapter required by callbacks, quoted dialogue, recurring objects, payoff scenes, repeated events, relationship bridges, foreshadow returns, or direct continuity
 3. If the project has dense recurrence, large cast rotation, or multiple active interference lines, prepare a retrieval slice using [graph-and-recall-control.md](references/graph-and-recall-control.md).
    - pull only the chapter-relevant characters, relationships, plotlines, foreshadows, world rules, and debts
    - track what is hot, what is running cold, and what cannot be forgotten here
+   - if the source chapters are not obvious, use the retrieval slice to name them, then read those accepted chapter manuscripts before generating the control card or drafting
 4. Read only the selected internal style module documents needed for this chapter.
    - use `09-style-guide.md` to identify style balance target, internalized strengths, support style boundary, preferred intensity range, and pseudo-style drift before loading modules
    - read the relevant internal style modules from [style-modules/index.md](references/style-modules/index.md)
@@ -588,7 +593,8 @@ In marathon mode:
 For each chapter, still do:
 
 - required file reads
-- retrieval slice preparation when density requires it
+- previous accepted chapter manuscript, previous chapter control card, and all source chapters required by callbacks, quoted dialogue, recurring objects, payoff scenes, repeated events, relationship bridges, foreshadow returns, or direct continuity
+- retrieval slice preparation when density requires it or when source chapters are unclear
 - chapter control card
 - working title generation and final title recheck when titled chapters are active
 - selected style module loading

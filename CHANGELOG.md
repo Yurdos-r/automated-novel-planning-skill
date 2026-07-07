@@ -12,6 +12,7 @@
 - 移除了 README 中未经验证的升级式表述，改为说明仓库实际包含的文件、规则和脚本模板。
 - 将 `RELEASE_NOTES.md` 改为当前 main 分支发布说明，不再列出不可由 Git 历史验证的历史版本。
 - 新增 `references/full-project-audit.md`，并在 `SKILL.md` 中接入全面审查、全书体检、阶段复盘和完结前验收的触发条件。
+- 强化章节续写前的源章节读取规则：写下一章前必须读取上一章正文、上一章控制卡和本章涉及的源章节，不能只凭动态状态、章节摘要、写作日志或记忆续写。
 
 ## 当前能力文件
 
@@ -19,7 +20,7 @@
 - `references/` 提供章节控制、文档模板、连续性检查、状态健康检查、真实性修订、章节验收等参考文档。
 - `references/full-project-audit.md` 提供全项目文件盘点、跨文件一致性、章节控制对齐、线热度、伏笔压力、风格漂移和继续/完结准备度审查。
 - `references/style-modules/` 提供按需加载的风格模块文档。
-- `assets/codex-continue-novel.ps1` 提供 Windows 连续创作恢复脚本模板，包含 UTF-8 设置、停止信号和项目文件快照比对。
+- `assets/codex-continue-novel.ps1` 提供 Windows 连续创作恢复脚本模板，包含 UTF-8 设置、停止信号、项目文件快照比对和源章节读取提示约束。
 - `scripts/chapter_lint.py` 提供章节文本的轻量检查入口。
 
 ## 已知限制
