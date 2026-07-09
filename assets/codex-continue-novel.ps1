@@ -12,9 +12,10 @@ $followUp = @"
 1. 继续当前章节链,按顺序创作下一章。
 2. 写下一章前,必须先读取上一章已接受正文、上一章对应控制卡,以及当前章路线图/控制卡/动态状态/伏笔账本/关系图/主线文件要求回调、引用、承接、兑现、重复事件、延续物件、关系桥接、伏笔回返或直接连续性的所有源章节。
 3. 如果无法确定涉及源章节,先从 08-dynamic-state.md、06-foreshadow-ledger.md、07-chapter-roadmap.md、04-relationship-map.md、05-main-plotlines.md 和已有 control-cards/ 中列出 retrieval slice,再读取对应章节；不得只凭动态状态、章节摘要、写作日志或记忆续写。
-4. 每完成一章,都必须把正文保存到 chapters/ 下对应的下一章文件,并遵守项目当前命名规则。
-5. 每完成一章,都必须同步创建或更新对应的 control-cards/ 章节控制卡。
-6. 每完成一章,都必须同步更新:
+4. 如果项目存在 10-anti-ai-profile.md、11-anti-ai-profile.md、anti-ai-profile.md 或 .claude/memory/feedback-anti-ai-profile.md,写前必须读取；若本章暴露新的反 AI 味病灶、允许类型词、重复动作库存或母题句式规则,写后必须更新。
+5. 每完成一章,都必须把正文保存到 chapters/ 下对应的下一章文件,并遵守项目当前命名规则。
+6. 每完成一章,都必须同步创建或更新对应的 control-cards/ 章节控制卡。
+7. 每完成一章,都必须同步更新:
    - 08-dynamic-state.md
    - logs/writing-log.md
    - 07-chapter-roadmap.md
@@ -24,9 +25,9 @@ $followUp = @"
    - 02-worldbuilding.md
    - 03-cast-bible.md
    按需更新,没有变化的文件可以不改。
-7. 标准输出只保留简短进度说明,不要直接输出整章正文。
-8. 如果无法写入上述项目文件,请直接回复 FileWriteBlocked。
-9. 如果整本小说已经完成,而不是当前章节完成,请直接回复 AllNovelDone。
+8. 标准输出只保留简短进度说明,不要直接输出整章正文。
+9. 如果无法写入上述项目文件,请直接回复 FileWriteBlocked。
+10. 如果整本小说已经完成,而不是当前章节完成,请直接回复 AllNovelDone。
 "@
 $projectRoot = "__PROJECT_ROOT__"
 $logFile = Join-Path $projectRoot "codex-continue.log"
@@ -121,7 +122,11 @@ function Get-TrackedProjectSnapshot {
         '05-main-plotlines.md',
         '04-relationship-map.md',
         '02-worldbuilding.md',
-        '03-cast-bible.md'
+        '03-cast-bible.md',
+        '10-anti-ai-profile.md',
+        '11-anti-ai-profile.md',
+        'anti-ai-profile.md',
+        '.claude/memory/feedback-anti-ai-profile.md'
     )
 
     foreach ($relativePath in $trackedFiles) {

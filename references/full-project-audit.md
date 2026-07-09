@@ -28,6 +28,7 @@ Conditional sources:
 
 - `review/reports/` when it exists
 - project-local mechanics calibration files
+- project-local anti-AI profile files such as `10-anti-ai-profile.md`, `11-anti-ai-profile.md`, or `anti-ai-profile.md`
 - retrieval maps, graph notes, or sidecars when the project uses them
 - synopsis, volume summaries, or phase review files when present
 
@@ -75,6 +76,8 @@ If the user says "全面审查" without narrowing the scope, use `full`.
    - world-rule or mechanics drift
 6. Audit prose and style at project scale.
    - repeated AI shell patterns
+   - project anti-AI profile compliance when a profile exists
+   - repeated action inventory, fixed motif syntax, and type-canon overuse across sampled chapters
    - analysis-tone drift
    - over-professionalized or unexplained jargon
    - paragraph-mode drift
@@ -119,6 +122,7 @@ Use this report shape:
 - chapters_inventoried_only:
 - control_cards_read:
 - standard_files_read:
+- anti_ai_profile_read:
 
 ## Executive Decision
 - status: pass / pass_after_repairs / blocked
@@ -149,6 +153,7 @@ Use this report shape:
 - foreshadow_pressure:
 - style_and_paragraph_mode:
 - repeated_failure_patterns:
+- project_anti_ai_profile_findings:
 
 ## Required Repairs
 | Priority | File / Area | Problem | Evidence | Repair |

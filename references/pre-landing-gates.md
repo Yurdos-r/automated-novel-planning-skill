@@ -50,8 +50,10 @@ Check:
 - overly neat summary or theme-translation sentences
 - static abstract labels replacing action, distance, voice, or consequence
 - fixed motif phrases repeated in the same grammar across recent chapters
+- project anti-AI profile risks when a profile exists: allowed type-canon terms used as filler, high-risk shells, repeated action inventory, repeated body reactions, fixed motif syntax, and over-defensive flattening
 
 Use `scripts/chapter_lint.py` before manual review when available.
+The script only catches measurable patterns. Apply the project anti-AI profile manually for context-sensitive risks.
 
 If this gate finds hard blockers, fix them before saving the manuscript into `chapters/`.
 
@@ -86,6 +88,7 @@ Compare the draft with the current control card:
 - did the ending hook match the actual ending
 - did `forbidden_drift` stay avoided
 - did style, paragraph, dialogue, suspense, or authenticity tasks land when active
+- did project-specific anti-AI tasks land when the control card named them
 
 Also check:
 
@@ -115,9 +118,9 @@ Record a compact pre-landing note in the review report or writing log:
 ## Pre-Landing Gates
 - gate_0_size: pass/fail, metrics
 - gate_1_text_hygiene: pass/fail, blockers
+- project_anti_ai_profile_ran: yes/no/not_applicable
 - gate_5_paragraph_rhythm: pass/fail, blockers
 - gate_8_control_continuity: pass/fail, blockers
 - chapter_lint_ran: yes/no
 - landed_to_chapters: yes/no
 ```
-

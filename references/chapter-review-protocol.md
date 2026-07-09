@@ -22,6 +22,7 @@ Review the accepted manuscript against:
 - previous chapter manuscript
 - source chapters for callbacks, quoted dialogue, recurring objects, payoff scenes, or repeated events
 - project calibration files when world mechanics, genre conventions, intimacy, violence, law, magic, profession, medicine, or other fragile rules are active
+- project anti-AI profile files such as `10-anti-ai-profile.md`, `11-anti-ai-profile.md`, or `anti-ai-profile.md` when they exist or when prose authenticity is under review
 
 For single-chapter review, do not accept "dynamic state only" or a summary-only read as source coverage. List the previous chapter and every actually read source chapter in `Sources Read`. If an expected source chapter was not read, mark continuity review as incomplete or blocked rather than guessing from memory.
 
@@ -64,8 +65,10 @@ Check:
 - static labels for voice, gaze, tone, or emotional state
 - motif phrases becoming fixed buttons
 - analysis-tone, report-tone, platform-copy, or industry jargon entering narration without point-of-view support
+- project-specific high-risk shells, repeated action inventory, fixed motif syntax, type-canon overuse, and over-defensive cleanup from the active anti-AI profile
 
 Use `authenticity-and-de-ai-pass.md` for repair after diagnosis.
+Use `project-anti-ai-profile.md` when the chapter needs project-specific scoring or a missing profile must be created.
 
 ### 2. Project Mechanics And World Rules
 
@@ -177,6 +180,7 @@ Do not average scores. A single hard blocker blocks acceptance.
 - manuscript:
 - control_card:
 - prior_chapters:
+- anti_ai_profile:
 - calibration_files:
 
 ## Integrity Metrics

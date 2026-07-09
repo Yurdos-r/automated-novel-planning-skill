@@ -13,12 +13,15 @@
 - 将 `RELEASE_NOTES.md` 改为当前 main 分支发布说明，不再列出不可由 Git 历史验证的历史版本。
 - 新增 `references/full-project-audit.md`，并在 `SKILL.md` 中接入全面审查、全书体检、阶段复盘和完结前验收的触发条件。
 - 强化章节续写前的源章节读取规则：写下一章前必须读取上一章正文、上一章控制卡和本章涉及的源章节，不能只凭动态状态、章节摘要、写作日志或记忆续写。
+- 新增 `references/project-anti-ai-profile.md`，把项目专属反 AI 味分析库抽象为通用配置层：允许词、病灶句式、动作库存、母题句式、场景卡、评分线和过度防御风险。
+- 将项目反 AI 味配置接入 `SKILL.md`、章节控制卡、标准文档模板、真实性修订、预落盘门禁、章节审查、全面审查、连续创作脚本模板和质量写回规则。
 
 ## 当前能力文件
 
 - `SKILL.md` 定义标准项目文件、章节流程、段落模式、章节标题控制、真实性修订、风格模块加载和写回规则。
 - `references/` 提供章节控制、文档模板、连续性检查、状态健康检查、真实性修订、章节验收等参考文档。
 - `references/full-project-audit.md` 提供全项目文件盘点、跨文件一致性、章节控制对齐、线热度、伏笔压力、风格漂移和继续/完结准备度审查。
+- `references/project-anti-ai-profile.md` 提供可选的项目级反 AI 味配置模板与评分规则，用于避免通用去 AI 味规则误删必要类型质感。
 - `references/style-modules/` 提供按需加载的风格模块文档。
 - `assets/codex-continue-novel.ps1` 提供 Windows 连续创作恢复脚本模板，包含 UTF-8 设置、停止信号、项目文件快照比对和源章节读取提示约束。
 - `scripts/chapter_lint.py` 提供章节文本的轻量检查入口。

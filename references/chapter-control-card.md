@@ -94,6 +94,15 @@ If the chapter title changes after drafting, rename the file during the same wri
 - suspense_task:
 - structure_task:
 - authenticity_focus:
+- anti_ai_profile_reference:
+- type_canon_terms_allowed:
+- project_ai_risks:
+- scene_specific_ai_risks:
+- action_inventory_watch:
+- motif_syntax_watch:
+- genre_mechanism_risk:
+- over_defense_risk:
+- ai_flavor_score_target:
 - hook_type:
 - closure_type:
 - theme_landing_action:
@@ -137,6 +146,8 @@ Minimum standard:
 - under `web-serial-natural`, narrative paragraphs should usually carry `2-4` sentences; single-sentence narrative paragraphs need a real pressure job and should not stack by habit
 - paragraph breaks should track speaker change, scene/time/point-of-view shift, or pressure turn rather than decorative blank space
 - when style pressure is meaningful, the card should name `1-2` active style drivers instead of vague adjectives
+- when a project anti-AI profile exists, the card should name only this chapter's active allowed terms, high-risk shells, repeated gesture risks, motif syntax risks, and score target
+- do not use anti-AI fields as a blind ban list; protect necessary genre, era, profession, or setting texture while blocking repeated shells and hollow mechanism prose
 - chapters may keep style intensity low when they are bridging, recovering, or quietly repositioning, but should still preserve some line of stylistic continuity
 - if a primary or support style is active, the card should note what kind of payoff this chapter is trying to deliver and what pseudo-style drift must be avoided
 - if titled chapters are active, every control card must generate `3-5` candidates and choose one working title

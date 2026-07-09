@@ -69,6 +69,7 @@ Use stable slugs when the project uses numbered-only chapters or when a working 
 - what characters commonly know
 
 If the project has fragile mechanics or genre-specific rules, create a project-local calibration file from [mechanics-calibration-template.md](mechanics-calibration-template.md) and reference it here.
+If the project has dense type-canon vocabulary, repeated AI-flavor risks, or style-sensitive recurring scene types, create a project-local anti-AI profile from [project-anti-ai-profile.md](project-anti-ai-profile.md) and reference it here or in `09-style-guide.md`.
 
 ## `03-cast-bible.md`
 
@@ -202,6 +203,7 @@ Use the dedicated template in [dynamic-state-template.md](dynamic-state-template
 - image system
 - language taboos, including banned AI shell phrases, analysis-tone filler, and unexplained specialist jargon
 - authenticity guardrails, including jargon ceiling and any required terms that must survive cleanup
+- project anti-AI profile reference, allowed type-canon terms, repeated action inventory warnings, motif syntax warnings, and over-defense risks when active
 - voice preservation notes, including profession-, era-, or character-specific diction that should survive cleanup
 - revision standards
 
@@ -265,3 +267,19 @@ Track:
 - do-not-penalize list for review
 - hard contradictions
 - where new rules must be written back
+
+## Optional: `10-anti-ai-profile.md` / `11-anti-ai-profile.md` / `anti-ai-profile.md`
+
+Use [project-anti-ai-profile.md](project-anti-ai-profile.md) when generic de-AI cleanup is too blunt for the project.
+
+Track:
+
+- allowed type-canon terms and when they are legitimate
+- terms or phrases that become risky by density, misuse, or loss of scene function
+- high-risk sentence shells, static labels, and punctuation habits
+- repeated gestures, body reactions, and micro-expression limits
+- motif and callback wording that must vary instead of becoming a fixed button
+- genre mechanisms that must create choice, cost, consequence, or relationship movement
+- scene-specific anti-AI cards
+- `0-3` scoring notes and whole-chapter thresholds
+- over-defense risks where cleanup would erase necessary project texture

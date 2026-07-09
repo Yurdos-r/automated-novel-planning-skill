@@ -14,7 +14,8 @@ Use this reference only when:
 5. Preserve the template's UTF-8 console setup and explicit UTF-8 log writing.
 6. Verify that `codex-continue-novel.ps1` exists in the project root.
 7. Verify that the written script no longer contains `__PROJECT_ROOT__`.
-8. Record the launch command in the handoff wording:
+8. If the project uses `10-anti-ai-profile.md`, `11-anti-ai-profile.md`, `anti-ai-profile.md`, or `.claude/memory/feedback-anti-ai-profile.md`, confirm the runner template still tells Codex to read and update it when active risks appear.
+9. Record the launch command in the handoff wording:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\codex-continue-novel.ps1

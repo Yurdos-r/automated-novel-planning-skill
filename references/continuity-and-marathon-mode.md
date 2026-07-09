@@ -15,6 +15,7 @@ Before each chapter, read at minimum:
 - `07-chapter-roadmap.md`
 - `08-dynamic-state.md`
 - `09-style-guide.md`
+- any project-local anti-AI profile file when it exists or when repeated AI-flavor is an active risk
 
 If the project is under major revision or structural redirect, also refresh the foundational and benchmark layers.
 
@@ -102,15 +103,16 @@ Loop:
 7. draft chapter
 8. run benchmark and continuity checks
 9. rewrite if needed
-10. run authenticity pass
-11. run a post-authenticity mini recheck
-12. run pre-landing gates and `scripts/chapter_lint.py` when available
-13. save the accepted manuscript into `chapters/` only after pre-landing passes
-14. run the final title recheck if titled chapters are active
-15. run formal chapter review before canon writeback
-16. update dynamic and structural files
-17. log the chapter
-18. continue to the next chapter
+10. apply the project anti-AI profile when present or needed
+11. run authenticity pass
+12. run a post-authenticity mini recheck
+13. run pre-landing gates and `scripts/chapter_lint.py` when available
+14. save the accepted manuscript into `chapters/` only after pre-landing passes
+15. run the final title recheck if titled chapters are active
+16. run formal chapter review before canon writeback
+17. update dynamic and structural files
+18. log the chapter
+19. continue to the next chapter
 
 ## 7. Rewrite Escalation Still Applies
 
@@ -152,6 +154,7 @@ When the novel approaches conclusion, ask:
 - optional secondary control notes left newer than the canonical files
 - draft text saved into `chapters/` before pre-landing gates pass
 - measurable text hygiene issues left for late formal review instead of linted early
+- project anti-AI profile ignored after it exists
 - authenticity cleanup flattening character or genre voice
 - authenticity cleanup changing facts or hook pressure without a final recheck
 - titled chapters generated on autopilot with no fit check against the accepted chapter

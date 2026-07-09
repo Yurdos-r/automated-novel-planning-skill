@@ -17,6 +17,10 @@ The target is:
 - voiced instead of neutralized
 - vivid instead of inflated
 
+If a project anti-AI profile exists, apply it before generic cleanup. Project-specific calibration decides which terms are legitimate type texture, which shells are overused, which gestures have become stock buttons, and which motifs must vary.
+
+Do not treat type-canon words, professional terms, invented setting terms, or recurring motifs as automatically bad. Judge density, function, point of view, and whether the term creates choice, cost, consequence, or reader orientation.
+
 ## 2. Pass One: Strip Generic AI Habits
 
 Look for:
@@ -30,6 +34,9 @@ Look for:
 - repetitive transition words and tidy paragraph openers
 - dialogue tags or gestures that feel mass-produced
 - all speakers sounding equally polished
+- project-specific high-risk shells from `10-anti-ai-profile.md`, `11-anti-ai-profile.md`, `anti-ai-profile.md`, or the active anti-AI profile
+- repeated action inventory such as the same gaze, breath, hand movement, body reaction, or static voice label doing the same job across scenes
+- motif or callback phrases repeated in the same grammar until they become buttons instead of pressure
 
 At this stage, reduce genericity, but do not erase intentional register.
 
@@ -42,12 +49,14 @@ Treat these as risk signals unless the project truly needs them:
 - institutional or industry jargon dropped into narration without scene support
 - professional terms piled together when one concrete term plus context would do the job
 - imported concept language that makes a scene harder to feel and easier to summarize
+- over-explained defensive phrasing that tries so hard to avoid AI-flavor that it replaces fiction with cautious commentary
 
 Default action:
 
 - translate the term into action, consequence, social position, or material detail
 - let behavior, misunderstanding, or pressure carry the meaning
 - keep only the minimum technical wording the scene actually needs
+- keep approved project terms when they are doing real story work, but reduce density when they crowd out action, consequence, or character perception
 
 Do not confuse unfamiliar words with depth.
 
@@ -76,6 +85,7 @@ After cleanup, strengthen:
 - scene-specific memory points
 - project-specific language habits
 - one or two living details after heavy cleanup so the prose does not go flat
+- project-approved texture that was accidentally over-trimmed
 
 If a line becomes technically cleaner but less alive, it is not improved yet.
 
@@ -89,6 +99,7 @@ Do not flatten on sight when the project intentionally uses:
 - comic exaggeration
 - character-specific verbal habits
 - profession-shaped diction that belongs to the speaker
+- type-canon vocabulary recorded as allowed in the project anti-AI profile
 
 Clean generic phrasing, not chosen texture.
 
@@ -175,6 +186,10 @@ Problem -> action:
 - pseudo-profound line -> cut or anchor it to a concrete wound, choice, or cost
 - analysis-language sentence -> turn "mechanism/structure/logic" into a live situation, pressure point, or consequence
 - unexplained professional term -> keep one needed term, cut the rest, and make context carry the meaning
+- type-canon overuse -> keep terms that orient the reader or trigger real consequence, cut terms used as decoration or substitute pressure
+- repeated gesture stock -> replace with action that changes distance, status, timing, choice, or consequence
+- fixed motif syntax -> keep the motif but vary grammar, point of view, physical anchor, or emotional cost
+- over-defensive cleanup -> restore necessary genre, setting, era, profession, or character texture
 - one-sentence paragraph chain -> merge connected beats until only the pressure-bearing short paragraphs remain
 - decorative blank line -> remove unless scene, speaker, time, or pressure boundary actually changed
 - samey dialogue -> restore difference in directness, rhythm, and concealment
@@ -216,6 +231,7 @@ After medium or aggressive edits, run a quick recheck for:
 - hook, closure, and residue still functioning
 - ordinary-reader legibility still holding
 - required specialized terms still present where the story actually needs them
+- active project anti-AI profile risks improved without erasing approved texture
 
 If this pass breaks story control, repair the damaged dimension before accepting the chapter.
 
@@ -228,5 +244,7 @@ If this pass breaks story control, repair the damaged dimension before accepting
 - did cleanup remove only genericity, or also remove force
 - did cleanup leave behind a jargon wall
 - did cleanup cut a term the story genuinely needed
+- did project-specific repeated gestures, fixed motif syntax, or scene shells actually change
+- did fear of AI-flavor make the prose less like this novel
 
 If the chapter becomes cleaner but less alive, revise again.

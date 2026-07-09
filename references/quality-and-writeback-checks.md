@@ -17,6 +17,7 @@ After every chapter draft, confirm at minimum:
 - the chapter closes, deepens, or reprices at least one obligation and carries at least one debt or unstable pressure forward when the book still needs forward pull
 - theme lands in action, relation, or consequence
 - the prose keeps memory points and does not collapse into flat procedural narration
+- if a project anti-AI profile exists, the chapter respects its allowed type-canon terms, active risk list, repeated action inventory warnings, motif syntax warnings, and score target
 - paragraphing matches the active `paragraph_mode`; under `web-serial-natural`, narration is not routinely chopped into one-sentence paragraphs or decorative blank gaps, and under `long-paragraph`, continuity does not become a wall of inert exposition
 - originality remains intact and the chapter is not benchmark cosplay
 - recurring elements either advance, echo, or are intentionally deferred with justified pressure
@@ -52,6 +53,7 @@ Then update these files when needed:
 - `06-foreshadow-ledger.md`
 - `07-chapter-roadmap.md`
 - `02-worldbuilding.md`
+- `10-anti-ai-profile.md`, `11-anti-ai-profile.md`, `anti-ai-profile.md`, or the active project anti-AI profile when the chapter exposes a new recurring risk, approved term, forbidden shell, action inventory problem, or motif syntax rule
 - `chapters/NN-<chapter-title>.md`
 - `control-cards/NN-<chapter-title>-control-card.md`
 
@@ -86,6 +88,7 @@ Reject or revise a chapter when any of these are true:
 - a benchmark rule group is loaded but not visible in scene logic
 - the chapter imitates a sample's recognizable move instead of applying its principle
 - prose sounds inflated, fake-deep, dead, or slogan-like
+- an active project anti-AI profile is ignored, or cleanup removes approved project texture while leaving repeated shells, stock gestures, fixed motif syntax, or hollow mechanism prose intact
 - paragraphing simulates intensity through empty spacing, consecutive single-sentence narrative paragraphs, or same-speaker beat-splitting without a pressure reason
 - a nonlinear shift reveals nothing about character truth or theme
 - style modules are mixed without purpose
@@ -122,6 +125,8 @@ Always:
 - treating a scratch graph or recall map as if it were the canon
 - bringing back cold elements with empty cameos instead of causal pressure
 - flattening prose while trying to remove AI patterns
+- using generic de-AI rules when the project already has a more precise anti-AI profile
+- treating allowed type-canon terms as forbidden, or treating approved terms as a license to skip human pressure
 - treating every sentence like a paragraph break and mistaking blank space for pace control
 - locking a chapter title before drafting and never rechecking whether the accepted chapter still earns it
 - using spoiler summaries or generic chapter labels when a titled system is active

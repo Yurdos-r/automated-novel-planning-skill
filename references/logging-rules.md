@@ -21,6 +21,7 @@ Allowed fields per entry:
 - third-pass cause summary
 - whether a retrieval slice was used
 - what forgotten-element action was taken
+- whether a project anti-AI profile was applied or updated
 - what authenticity pass level ran
 - whether post-authenticity mini recheck ran
 - whether the chapter was in marathon mode
@@ -51,6 +52,7 @@ Recommended entry shape:
 - rewrite_pass: 1
 - retrieval_slice_used: yes
 - forgotten_element_action: pressure reminder for missing brother line
+- project_anti_ai_profile: applied, no update
 - authenticity_pass_level: medium
 - post_authenticity_mini_recheck_ran: yes
 - marathon_mode: no
